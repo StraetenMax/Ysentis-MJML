@@ -1,0 +1,26 @@
+mjml
+    //- Head
+    mj-head
+        mj-title Pizza Mjml
+        mj-raw.
+            <meta name="color-scheme" content="light"/>
+            <meta name="supported-color-schemes" content="light"/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-attributes
+        mj-breakpoint(width='480px')
+    //- Body
+    mj-body(background-color="#f1f1f1")       
+        //- content
+        block content
+        //- map
+            block map
+            include ../includes/_map
+        //- recommended
+            block recommended
+            include ../includes/_recommended
+        //- footer
+            block footer
+            include ../includes/_footer
