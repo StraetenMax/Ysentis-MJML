@@ -18,6 +18,11 @@
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
   <mj-body background-color="#f1f1f1" width="650px">      
+    <mj-section>
+      <mj-column>
+        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" line-height="17px"><a style="color:0000EE;" href="#">voir la version en ligne</a> | <a href="#" style="color:0000EE;">se désinscrire de la liste de diffusion</a></mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section padding="10px" background-color="#ffebd9">
       <mj-column padding="10px" width="62,461539%" vertical-align="middle">
         <mj-image align="left" padding="0" width="119px" src="https://i.ibb.co/9qTYXms/logoMoi.png" alt=""></mj-image>
@@ -34,6 +39,17 @@
         <mj-image padding="0" fluid-on-mobile="true" width="244px" src="https://i.ibb.co/jMSfzbr/img4Moi.png" alt=""></mj-image>
         <mj-image padding="10px 0" fluid-on-mobile="true" width="244px" src="https://i.ibb.co/09YKMKw/img5Moi.png" alt=""></mj-image>
         <mj-image padding="0" fluid-on-mobile="true" width="244px" src="https://i.ibb.co/2ygnqP1/img6Moi.png" alt=""></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="10px" background-color="#ffebd9">
+      <mj-column>
+        <mj-text padding="0" align="center" font-family="Albert Sans, Arial, sans-serif" font-size="11px" line-height="16px" font-weight="700" text-transform="uppercase">Ysentis - siret 42912707900029 - tél 01 41 83 00 85</mj-text>
+        <mj-text padding="0" align="center" font-family="Albert Sans, Arial, sans-serif" font-size="11px" line-height="16px" font-weight="700" text-transform="uppercase">100 Avenue Général Leclerc 93500 Pantin</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" line-height="17px"><a href="#" style="color:0000EE;">se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
