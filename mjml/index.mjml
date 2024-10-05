@@ -1,7 +1,7 @@
 
 <mjml>
   <mj-head>
-    <mj-title>Pizza Mjml</mj-title>
+    <mj-title>Ysentis Mjml</mj-title>
     <mj-raw>
       <meta name="color-scheme" content="light"/>
       <meta name="supported-color-schemes" content="light"/>
@@ -10,9 +10,30 @@
       <meta name="format-detection" content="address=no"/>
       <meta name="format-detection" content="email=no"/>
     </mj-raw>
-    <mj-attributes></mj-attributes>
+    <mj-font name="Albert Sans" https="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap"/>
+    <mj-attributes>
+      <mj-text font-family="Albert Sans, Arial, sans-serif" font-size="16px" font-weight="400" line-height="22px" color="#000000"></mj-text>
+    </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
   <mj-body background-color="#f1f1f1">      
+    <mj-section>
+      <mj-column>
+        <mj-image></mj-image>
+        <mj-text align="left">Bonjour,</mj-text>
+        <mj-text align="left">Nous comprenons combien une panne de connexion internet peut être frustrante et perturbante pour votre quotidien : </mj-text>
+        <mj-text align="left">Perturbations des opérations, diminution de la productivité, risque de perte de données, stress, retards dans les projets …</mj-text>
+        <mj-button></mj-button>
+        <mj-text align="left">Ysentis vous propose une fibre sécurisée, fiable et rapide.</mj-text>
+        <mj-text align="left">Notre service vous permet d'anticiper une coupe grâce à un système de secours, mais également d'assurer la continuité de votre activité et d'améliorer votre productivité.</mj-text>
+        <mj-text align="left"> </mj-text>
+        <mj-button></mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image></mj-image>
+        <mj-image></mj-image>
+        <mj-image></mj-image>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
