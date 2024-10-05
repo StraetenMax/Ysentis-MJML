@@ -10,26 +10,27 @@
       <meta name="format-detection" content="address=no"/>
       <meta name="format-detection" content="email=no"/>
     </mj-raw>
-    <mj-font name="Albert Sans" https="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap"/>
+    <mj-font name="Albert Sans" href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap"/>
     <mj-attributes>
       <mj-text font-family="Albert Sans, Arial, sans-serif" font-size="16px" font-weight="400" line-height="22px" color="#000000"></mj-text>
+      <mj-button padding="0" align="left" inner-padding="16px 30px" background-color="#f18f27" font-size="16px" font-weight="700" line-height="120%" text-transform="uppercase"></mj-button>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
-  <mj-body background-color="#f1f1f1">      
-    <mj-section padding="10px" width="650px" background-color="#ffebd9">
-      <mj-column padding="10px" width="62,461539%">
+  <mj-body background-color="#f1f1f1" width="650px">      
+    <mj-section padding="10px" background-color="#ffebd9">
+      <mj-column padding="10px" width="62,461539%" vertical-align="middle">
         <mj-image></mj-image>
-        <mj-text padding="13px 0" align="left">Bonjour,</mj-text>
+        <mj-text padding-top="33px" padding-bottom="0" padding-left="0" padding-right="0" align="left">Bonjour,</mj-text>
         <mj-text padding-top="13px" padding-bottom="0" padding-left="0" padding-right="0" align="left">Nous comprenons combien une panne de connexion internet peut être frustrante et perturbante pour votre quotidien : </mj-text>
         <mj-text padding-top="0" padding-bottom="13px" padding-left="0" padding-right="0" align="left">Perturbations des opérations, diminution de la productivité, risque de perte de données, stress, retards dans les projets …</mj-text>
-        <mj-button padding="0" align="left" inner-padding="16px 30px" inner-background="#f18f27">en savoir plus</mj-button>
-        <mj-text padding-top="23px" padding-bottom="0" padding-left="0" padding-right="0" align="left">Ysentis vous propose une fibre sécurisée, fiable et rapide.</mj-text>
+        <mj-button href="#">en savoir plus</mj-button>
+        <mj-text padding-top="33px" padding-bottom="0" padding-left="0" padding-right="0" align="left">Ysentis vous propose une fibre sécurisée, fiable et rapide.</mj-text>
         <mj-text padding-top="0px" padding-bottom="13px" padding-left="0" padding-right="0" align="left">Notre service vous permet d'anticiper une coupe grâce à un système de secours, mais également d'assurer la continuité de votre activité et d'améliorer votre productivité.</mj-text>
         <mj-text padding-top="0" padding-bottom="13px" padding-left="0" padding-right="0" align="left">Avec Ysentis, vous ne serez jamais seul ! Notre support technique se tient toujours prêt à intervenir.</mj-text>
-        <mj-button padding="0" align="left" inner-padding="16px 30px" inner-background="#f18f27">être recontacté</mj-button>
+        <mj-button href="#">être recontacté</mj-button>
       </mj-column>
-      <mj-column padding="10px" width="37,538461%">
+      <mj-column padding="10px" width="37,538461%" vertical-align="middle">
         <mj-image padding="0" fluid-on-mobile="true" width="244px" src="https://ext.lb-lg.fr/Ysentis/images4/img4.png" alt=""></mj-image>
         <mj-image padding="0" fluid-on-mobile="true" width="244px" src="" alt=""></mj-image>
         <mj-image padding="0" fluid-on-mobile="true" width="244px" src="" alt=""></mj-image>
